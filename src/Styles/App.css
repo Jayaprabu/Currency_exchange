@@ -1,0 +1,256 @@
+:root {
+    --primary: #009688;    
+    --accent: #94C720; 
+    --warncolor: #C70D38;
+    --default: #404040;
+    --tableheader: #8D8D8D;
+    --forntsizebold: 48px;
+    --forntsizetitle: 24px;
+    --forntsizeregular: 16px;
+}
+
+*{
+    margin:0%;
+    padding:0%;
+    font-family: "Roboto";   
+}
+.info-color {
+    color: var(--primary);
+}
+.warn-color{
+    color: var(--warncolor);
+}
+.title{
+    background-color: #d8d8d8;
+    color: #404040;;
+    padding: 10px;
+    box-shadow: 0 0 10px #0000004d;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header{
+    background-color: #ffffff;
+    color:#404040;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+.header>a
+{
+    text-decoration:none;
+    color: #404040;
+    margin:20px;
+    padding: 10px;
+}
+
+.header>a:hover {
+    border-bottom: 3px solid var(--primary);
+}
+
+.container
+{
+    background-color: #d8d8d8;
+    width:90%;
+    margin:auto;
+    min-height: 140vh;
+    padding: 4vmax 8vmax;
+    box-sizing: border-box;    
+    position: relative;
+}
+
+.group {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    margin-top: 4em;
+}
+
+.sub-group {
+    width: 23%;
+    float: left;
+    margin-left: 40px;
+}
+.inputfiled {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    border: none;
+    border-radius: 0;
+    color: #000000;    
+    font-size: 30px;
+    transition: 0.3s ease;
+    border-bottom: 2px solid #C5C5C5;
+    background-color: #D8D8D8;
+}
+
+.labelfiled {
+    position: absolute;
+    top: 0px;
+    color: #0c0c0c80;
+    font: 700 22px Roboto;
+    cursor: text;
+}
+
+.inputfiled:focus {
+    outline: none;
+}
+
+.title-bold {      
+    color: #6a6a6a;
+    font-family: 'roboto-bold', sans-serif;;
+    font-size: var(--forntsizebold);
+}
+
+.title-medium {
+    color: #6a6a6a;
+    font-family: 'roboto-bold', sans-serif;;
+    font-size: 24px;
+}
+
+.title-normal {
+    color: #6a6a6a;
+    font-family: 'roboto', sans-serif;;
+    font-size: 16px;
+}
+.borderInfo {
+  
+    border: 1px solid #d6d2d2;
+    background-color: #FFF;
+    box-shadow: 0px 0px 5px 0px #a59c9c;
+    margin: 20px;
+    float: left;
+    padding: 5px;
+}
+
+.primaryButton {     
+    background-color: #009688 !important;    
+    padding : 18px 36px !important;
+    font-size: 16px !important;
+    float: right;
+} 
+
+.convertInfo {
+    text-align: center;
+    padding: 60px 30px 10px;
+}
+
+.convertInfo > p{
+    font-size: var(--forntsizebold);
+}
+
+.accentColor {
+    color: var(--accent);
+}
+
+.pad-r2 {
+    padding: 0 .2em !important;
+}
+
+.mrg-t2 {
+    margin: 1em 0 0 !important;
+}
+
+.mrg-t3 {
+    margin: 3em 0 0 !important;
+}
+
+.convertInfoSub {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #c5c5c5;
+}
+
+.float_l {
+    float: left;
+}
+.float_r{
+    float: right;
+}
+.mar_l50{
+    margin-left: 50px;
+}
+.rTable {
+    display: block;
+    width: 100%;
+    background-color: #FFF;
+    color: var(--default);
+    border-radius: 1px;    
+    box-shadow: 0px 2px 3px 3px #a59c9c;
+ }
+ .rTableHeading, .rTableBody, .rTableRow{
+    clear: both;
+ }
+ .rTableHead{
+    background-color: #FFF;
+    color: var(--tableheader);
+ }
+ .rTableCell, .rTableHead {
+    border-top: 1px solid #999999;
+    float: left;
+    height: 40px;
+    overflow: hidden;
+    padding: 3px 1.8%;
+    width: 29.55%;
+    line-height: 2.5;
+ }
+ .rTable:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+ }
+
+ .width_40{
+    width: 40% !important; 
+ }
+ .width_40  .rTableCell, .width_40 .rTableHead {
+    width: 46% !important;    
+}
+
+.warn {
+    color: var(--warncolor);
+    font-size: var(--forntsizeregular);
+    text-align: center;
+}
+
+.dropdownAlign {
+    width: 300px;
+    margin-right: 150px;
+}
+
+.margin-l70{
+    margin-left: 70px
+}
+ 
+.height_50 {
+    height: 50px;
+}
+
+.lineHeight_3{
+    line-height: 3;
+}
+
+.display_none{
+    display: none;
+}
+
+.action:hover .display_none{
+    display:block !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mar_l5{
+    margin-left: 5px;
+}
+
+
+
+/** OK */
+
+
+
+
